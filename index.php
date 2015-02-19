@@ -37,7 +37,8 @@ if (!empty($_POST['email'])) {
    <head>
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="description" content="">
+      <<title>Constructive Pathways Behaviour Consulting</title>
+      <meta name="description" content="Constructive Pathways Behaviour Consulting empowers families and school teams to positively support children to become happy, productive, and contributing members in home, school, and community environments.">
       <meta name="viewport" content="width=device-width, initial-scale=1">
 
       <link rel="stylesheet" href="style/normalize.css" type="text/css" />
@@ -66,7 +67,7 @@ if (!empty($_POST['email'])) {
       <section id="about-section">
       
          <div class="row">
-            <div class="large-fixed-8 columns medium-centered">
+            <div class="large-fixed-10 columns medium-centered">
                <h1>
                   <span class="part-1">Constructive families.</span> 
                   <span class="part-2">Constructive schools.</span> 
