@@ -218,11 +218,11 @@ if (!empty($_POST['email'])) {
                   <h1>Our Team</h1>
             
                   <div class="row">
-                     <div class="sm-med-4 columns">
+                     <!-- <div class="sm-med-4 columns">
                         <img src="img/bio.jpg"/>
-                     </div>
+                     </div> -->
                      
-                     <div class="sm-med-8 columns">
+                     <div class="sm-med-10 columns">
                         <h2>Stephen Chinn  <span>MA, BCBA</span></h2>
                         <h3>Director and Behaviour Consultant</h3>
                         <p>Stephen Chinn is a Board Certified Behaviour Analyst™ and holds a master’s degree in Special Education from the University of British Columbia with a concentration on autism and other developmental disorders. Stephen’s graduate research involved designing and implementing a family-centered, ecological, positive behaviour support intervention with a family of a child with autism and significant problem behaviour. Stephen has shared his research at conferences across North America and has presented a number of workshops and training sessions for parents and professionals. Stephen also has teaching experience at the university level, most recently as a sessional instructor at the University of British Columbia. Stephen’s CV is available upon request. </p>
