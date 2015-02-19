@@ -37,7 +37,7 @@ if (!empty($_POST['email'])) {
    <head>
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <<title>Constructive Pathways Behaviour Consulting</title>
+      <title>Constructive Pathways Behaviour Consulting</title>
       <meta name="description" content="Constructive Pathways Behaviour Consulting empowers families and school teams to positively support children to become happy, productive, and contributing members in home, school, and community environments.">
       <meta name="viewport" content="width=device-width, initial-scale=1">
 
