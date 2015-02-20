@@ -158,6 +158,10 @@ select {
 
 @media only screen and (min-width: (@bpMediumEM)) {
 	.breakpoint-css(medium, @halfGutterEM);
+
+    .column.medium-centered:last-child,
+    .columns.medium-centered:last-child {
+      float: none; }
 }
 
 @media only screen and (min-width: (@bpLargeEM)) {
