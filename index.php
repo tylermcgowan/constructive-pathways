@@ -202,10 +202,10 @@ if (!empty($_POST['email'])) {
 
       <div class="content-container">
         <div class="row">
-          <div class="large-fixed-10 columns medium-centered">
+          <div class="large-fixed-8 columns medium-centered">
             <div class="content">
               <div class="row">
-                <div class="sm-med-8 columns medium-centered">
+                <div class="sm-med-10 columns medium-centered">
 
                   <p class="important"><strong>Examples of adaptive and functionally appropriate skills that we teach include: </strong></p>
                   <ul>
