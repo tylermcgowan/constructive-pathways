@@ -34,7 +34,7 @@ if (!empty($_POST['email'])) {
 <!--[if lt IE 7]>     <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>        <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>        <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!--[if gt IE 8]>     <!--> <html class="no-js"> <!--<![endif]-->
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -42,9 +42,9 @@ if (!empty($_POST['email'])) {
     <meta name="description" content="Constructive Pathways Behaviour Consulting empowers families and school teams to positively support children to become happy, productive, and contributing members in home, school, and community environments.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta property="og:title" content="">
-    <meta property="og:url" content="">
-    <meta property="og:description" content="">
+    <meta property="og:title" content="Constructive Pathways Behaviour Consulting">
+    <meta property="og:url" content="www.constructivepathways.ca">
+    <meta property="og:description" content="Constructive Pathways Behaviour Consulting empowers families and school teams to positively support children to become happy, productive, and contributing members in home, school, and community environments.">
     <meta property="og:image" content="">
 
     <link rel="stylesheet" href="style/normalize.css" type="text/css" />
@@ -186,7 +186,7 @@ if (!empty($_POST['email'])) {
               
               <div class="large-4 columns">
                 <h4>3</h4>
-                <p>Promote meaningful changes in the funtioning of the family and school environments.</p>
+                <p>Promote meaningful changes in the functioning of the family and school environments.</p>
               </div>
             </div>
 
@@ -215,7 +215,7 @@ if (!empty($_POST['email'])) {
                     <li>learning and using self-regulation techniques</li>
                     <li>social skills and communication</li>
                     <li>academic programming and tutoring</li>
-                    <li>life-skills (e.g., toileting, getting dressed, eating, and sleeping independently)</li>
+                    <li>life skills (e.g., toileting, getting dressed, eating, and sleeping independently)</li>
                   </ul>          
                 </div>
               </div>
