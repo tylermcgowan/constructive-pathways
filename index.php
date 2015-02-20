@@ -9,14 +9,14 @@ if (!empty($_POST['email'])) {
     $from = trim($_POST['email']);
     $message = trim($_POST['message']);
     $honeypot = $_POST['website'];
-    $subject = 'Collective Partners Contact Form';
+    $subject = 'Constructive Pathways Contact Form';
 
     if (empty($honeypot)) {
       if (!empty($name) && !empty($from) && !empty($message)) {
         $emailSent = true;
 
         $headers =    'From: '.$from."\r\n".
-                        'Reply-To: '.$from."\r\n" .
+                        //'Reply-To: '.$from."\r\n" .
                         'X-Mailer: PHP/' . phpversion();
 
         $s = mail($to, $subject, $message, $headers);  
