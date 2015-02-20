@@ -326,7 +326,7 @@ if (!empty($_POST['email'])) {
               <a href="http://twitter.com" class="ss-twitter"></a>
             </div>
             <div class="info">
-              <p>&copy; 2014 Constructive Pathways Behaviour Consulting Ltd.</p>
+              <p>&copy; <?php echo date("Y"); ?> Constructive Pathways Behaviour Consulting Ltd.</p>
             </div>
           </div>
         </div>
