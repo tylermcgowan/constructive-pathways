@@ -231,14 +231,18 @@ if (!empty($_POST['email'])) {
       <div class="content">
         <div class="row">
           <div class="large-fixed-8 columns medium-centered">
-            <h1>Our Team</h1>
+            <div class="row">
+              <div class="sm-med-10 columns medium-centered">
+                <h1>Our Team</h1>
+              </div>
+            </div>
 
             <div class="row">
               <!-- <div class="sm-med-4 columns">
                 <img src="img/bio.jpg"/>
               </div> -->
 
-              <div class="sm-med-10 columns">
+              <div class="sm-med-10 columns medium-centered">
                 <h2>Stephen Chinn  <span>MA, BCBA</span></h2>
                 
                 <h3>Director and Behaviour Consultant</h3>
