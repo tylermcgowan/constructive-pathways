@@ -60,7 +60,7 @@ body {
 }
 
 a {
-   transition: color 0.2s @easeInOutQuad;
+  transition: color 0.2s ease-in-out;
 }
 
 header {
@@ -743,10 +743,10 @@ section {
          border: 0;
          background: white;
          border: 1px solid #979797;
-         border-radius: 3px;
-         box-shadow: inset 0px 1px 3px 0px rgba(0,0,0,0.50);
+         //border-radius: 3px;
+         box-shadow: inset 0px 1px 5px 1px rgba(0,0,0,.2);
          color: #858585;
-         transition: all 0.3s @easeInOutQuad;
+         transition: all 0.3s ease-in-out;
          outline: none;
          .font-regular;
          font-size: 16px;
@@ -759,10 +759,10 @@ section {
       textarea {
          background: #FFFFFF;
          border: 1px solid #979797;
-         border-radius: 3px;
-         box-shadow: inset 0px 1px 3px 0px rgba(0,0,0,0.50);
+         //border-radius: 3px;
+         box-shadow: inset 0px 1px 5px 1px rgba(0,0,0,.2);
          color: #858585;
-         transition: all 0.3s @easeInOutQuad;
+         transition: all 0.3s ease-in-out;
          outline: none;
          .font-regular;
          font-size: 16px;
@@ -780,7 +780,7 @@ section {
             box-shadow: inset 0px 0px 2px 2px #E1586E;
          }
          &:focus {
-            box-shadow: inset 0px 0px 3px 1px #5EBEBE;
+            box-shadow: inset 0 0px 5px 0px #5EBEBE;
             border: 1px solid #5EBEBE;
          }
       }     
@@ -790,7 +790,7 @@ section {
          background: @cp-green;
          box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.20);
          border: 0;
-         border-radius: 5px;
+         //border-radius: 5px;
          color: white;
          .font-semibold;
          font-size: 16px;
@@ -798,7 +798,7 @@ section {
          padding: 8px 16px;
          margin-top: 20px;
          
-         transition: background 0.2s @easeInOutQuad;
+         transition: background 0.2s ease-in-out;
          
          &:hover {
             background: @cp-blue;
@@ -825,6 +825,7 @@ footer {
    .social {
       margin: 0 0 22px;
       padding-top: 40px;
+      font-size: 20px;
       a {
          text-decoration: none;
          color: white;
