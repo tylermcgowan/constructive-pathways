@@ -739,7 +739,7 @@ section {
          }
       }
       
-      input[type=text] {
+      input[type=text], input[type=email] {
          border: 0;
          background: white;
          border: 1px solid #979797;
@@ -769,7 +769,7 @@ section {
 
       }
       
-      input[type=text], textarea {
+      input[type=text], input[type=email], textarea {
          
          &.error {
             background: #FFD8DF;
@@ -801,7 +801,7 @@ section {
       }
       
       @media only screen and (min-width: @bp1) {
-         input[type=text] {
+         input[type=text], input[type=email]  {
             margin-bottom: 20px;
          }
          
