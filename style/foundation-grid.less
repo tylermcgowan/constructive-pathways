@@ -149,52 +149,71 @@ select {
   float: left; }
 
 @media only screen {
-	.breakpoint-css(small, @halfGutterSmallEM);
+  .breakpoint-css(small, @halfGutterSmallEM);
 }
 
 @media only screen and (min-width: (@bpSmMedEM)) {
-	.breakpoint-css(sm-med, @halfGutterEM);
+  .large-fixed-8 {
+    width: 83.33333%;
+  }
 
-    .column.medium-centered:last-child,
-    .columns.medium-centered:last-child {
-      float: none; }
+  .breakpoint-css(sm-med, @halfGutterEM);
+
+  .column.medium-centered:last-child,
+  .columns.medium-centered:last-child {
+    float: none; 
+  }
+
+  .column.medium-centered,
+  .columns.medium-centered {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media only screen and (min-width: (@bpMediumEM)) {
-	.breakpoint-css(medium, @halfGutterEM);
+  .large-fixed-8 {
+    width: 83.33333%;
+  }
 
-    .column.medium-centered:last-child,
-    .columns.medium-centered:last-child {
-      float: none; }
+  .breakpoint-css(medium, @halfGutterEM);
+
+  .column.medium-centered:last-child,
+  .columns.medium-centered:last-child {
+    float: none; 
+  }
+
+
 }
 
 @media only screen and (min-width: (@bpLargeEM)) {
-	.large-fixed-8 {
-		width: 800px;
-	}
-	.large-fixed-10 {
-		max-width: 100%;
-		width: 1150px;
-	}
-	.breakpoint-css(large, @halfGutterEM);
+  .large-fixed-8 {
+    width: 800px;
+  }
+  .large-fixed-10 {
+    max-width: 100%;
+    width: 1150px;
+  }
+  .breakpoint-css(large, @halfGutterEM);
     
-    .column.medium-centered:last-child,
-    .columns.medium-centered:last-child {
-      float: none; }
+  .column.medium-centered:last-child,
+  .columns.medium-centered:last-child {
+    float: none; 
+  }
 }
 
 @media only screen and (min-width: (@bpXLargeEM)) {
-	.breakpoint-css(x-large, @halfGutterEM);
+  .breakpoint-css(x-large, @halfGutterEM);
 }
 
 
 .breakpoint-css(@name, @hg) {
-	
+  
   .row .row {
     margin-left: -@hg;
     margin-right: -@hg;
-  }	
-	
+  } 
+  
   .@{name}-push-0 {
     position: relative;
     left: 0%;
