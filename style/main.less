@@ -544,9 +544,23 @@ section {
       
    }
 
-   .hero.two-up {
+  .hero.two-up {
       //display: none;
-   }
+    .cf();
+         
+    .flex-image {
+      float: left;
+      padding-bottom: 50% * 438 / 720;
+      width: 50%;
+      min-height: 160px;
+    }
+    .flex-image.a {
+      background-image: url('../img/cp-approach-left.jpg');
+    }
+    .flex-image.b {
+      background-image: url('../img/cp-approach-right.jpg');
+    }
+  }
    
    @media only screen and (min-width: @bp1) {
       .hero.two-up {
