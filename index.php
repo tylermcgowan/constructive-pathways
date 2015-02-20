@@ -42,10 +42,11 @@ if (!empty($_POST['email'])) {
     <meta name="description" content="Constructive Pathways Behaviour Consulting empowers families and school teams to positively support children to become happy, productive, and contributing members in home, school, and community environments.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta property="og:title" content="Constructive Pathways Behaviour Consulting">
-    <!-- <meta property="og:url" content=""> -->
-    <meta property="og:description" content="Constructive Pathways Behaviour Consulting empowers families and school teams to positively support children to become happy, productive, and contributing members in home, school, and community environments.">
-    <!-- <meta property="og:image" content=""> -->
+    <meta property="og:title" content="Constructive Pathways Behaviour Consulting" />
+    <!-- <meta property="og:url" content="" /> -->
+    <meta property="og:description" content="Constructive Pathways Behaviour Consulting empowers families and school teams to positively support children to become happy, productive, and contributing members in home, school, and community environments." />
+    <meta property="og:image" content="http://cp.cedarmade.co/img/Constructive-Pathways.png" />
+    <meta property="og:type" content="website" />
 
     <link rel="stylesheet" href="style/normalize.css" type="text/css" />
     <link rel="stylesheet" href="fonts/ss-social-regular.css" type="text/css" />
