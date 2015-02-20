@@ -291,7 +291,7 @@ if (!empty($_POST['email'])) {
                           <input type="text" name="name" placeholder="Name *" class="required" />
                         </div>
                         <div class="large-6 columns">
-                          <input type="email" name="email" placeholder="Emails *" class="required email" />
+                          <input type="email" name="email" placeholder="Email *" class="required email" />
                         </div>
                       </div>
                       <input type="text" style="display: none; width: 0; height: 0;" name="website" value="" autocomplete="off" />
