@@ -21,8 +21,8 @@ if (!empty($_POST['email'])) {
 
         $s = mail($to, $subject, $message, $headers);  
         $error = error_get_last();
-        print_r($error);
-        exit; 
+        //print_r($error);
+        //exit; 
 
       }
    }
