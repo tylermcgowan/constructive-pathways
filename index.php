@@ -5,7 +5,7 @@ $emailSent = false;
 if (!empty($_POST['email'])) {
 
     $name = trim($_POST['name']);
-    $to = 'studio@cedarmade.co';
+    $to = 'info@constructivepathways.ca';
     $from = trim($_POST['email']);
     $message = trim($_POST['message']);
     $honeypot = $_POST['website'];
