@@ -309,7 +309,6 @@ if (!empty($_POST['email'])) {
                   <div class="sm-med-5 large-4 columns note">
                     <p><strong>Helping families in Vancouver, BC and surrounding areas.</strong></p>
                     <p><a href="mailto:info@constructivepathways.ca">info@constructivepathways.ca</a></p>
-                    <p>778.229.9942</p>
                   </div>
                 
                 </div>
