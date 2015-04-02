@@ -326,8 +326,8 @@ if (!empty($_POST['email'])) {
         <div class="small-12 columns">
           <div class="content">
             <div class="social">
-              <a href="http://facebook.com" class="ss-facebook"></a>
-              <a href="http://twitter.com" class="ss-twitter"></a>
+              <!-- <a href="http://facebook.com" class="ss-facebook"></a> -->
+              <a href="http://twitter.com/CPBConsulting" class="ss-twitter"></a>
             </div>
             <div class="info">
               <p>&copy; <?php echo date("Y"); ?> Constructive Pathways Behaviour Consulting Ltd.</p>
