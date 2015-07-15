@@ -97,54 +97,53 @@ if (!empty($_POST['email'])) {
 
           </div>
         </div>
-      </div> <! -- extra end div? -->
+      </div>
 
     </section>
 
 
     <section id="our-focus">
       <h1>Our Focus</h1>
-        <div class="hero">
-          <div class="flex-image"></div>
-        </div>
+      <div class="hero">
+        <div class="flex-image"></div>
+      </div>
 
-        <div class="content">
-          <div class="row">
-            <div class="large-fixed-8 columns medium-centered">
-              <p class="important"><em>Problem behaviour that affects quality of life.</em> Problem behaviour may range from mild to extreme in terms of intensity. You might not realize that your child’s behaviour is problematic because it has become the norm at home and school.</p>
+      <div class="content">
+        <div class="row">
+          <div class="large-fixed-8 columns medium-centered">
+            <p class="important"><em>Problem behaviour that affects quality of life.</em> Problem behaviour may range from mild to extreme in terms of intensity. You might not realize that your child’s behaviour is problematic because it has become the norm at home and school.</p>
 
-              <label>Examples might include:</label>
+            <label>Examples might include:</label>
 
-              <div class="row">
-                <div class="sm-med-6 columns">
-                  <ul>
-                    <li>refusing to get out of bed</li>
-                    <li>taking too long to get dressed in the morning</li>
-                    <li>repeatedly leaving his/her seat</li>
-                    <li>refusing to eat during mealtimes</li>
-                    <li>not paying attention to lessons</li>
-                    <li>tearing up worksheets when given work at school</li>
-                    <li>not engaging with peers </li>
-                  </ul>
-                </div>
-                
-                <div class="sm-med-6 columns">
-                  <ul>
-                    <li>bullying others on the playground</li>
-                    <li>whining at a store because she/he wants a treat or to go home</li>
-                    <li>fighting with a sibling</li>
-                    <li>constantly bugging mom or dad when they are busy</li>
-                    <li>waking up or sleeping with one or both parents on a nightly basis</li>
-                  </ul>
-                </div>
+            <div class="row">
+              <div class="sm-med-6 columns">
+                <ul>
+                  <li>refusing to get out of bed</li>
+                  <li>taking too long to get dressed in the morning</li>
+                  <li>repeatedly leaving his/her seat</li>
+                  <li>refusing to eat during mealtimes</li>
+                  <li>not paying attention to lessons</li>
+                  <li>tearing up worksheets when given work at school</li>
+                  <li>not engaging with peers </li>
+                </ul>
               </div>
-
-              <p class="sep">These and other problem behaviours often emerge early on in home and school life and remain persistent and pervasive. Problem behaviour does not just go away and many children do not outgrow their challenges without intervention. Problem behaviour negatively affects the quality of life of the child, family, and school community. Children who engage in problem behaviour are more likely to miss out on learning activities, be socially isolated from family and peers, and are less likely to participate in community activities.</p>
-
+              
+              <div class="sm-med-6 columns">
+                <ul>
+                  <li>bullying others on the playground</li>
+                  <li>whining at a store because she/he wants a treat or to go home</li>
+                  <li>fighting with a sibling</li>
+                  <li>constantly bugging mom or dad when they are busy</li>
+                  <li>waking up or sleeping with one or both parents on a nightly basis</li>
+                </ul>
+              </div>
             </div>
+
+            <p class="sep">These and other problem behaviours often emerge early on in home and school life and remain persistent and pervasive. Problem behaviour does not just go away and many children do not outgrow their challenges without intervention. Problem behaviour negatively affects the quality of life of the child, family, and school community. Children who engage in problem behaviour are more likely to miss out on learning activities, be socially isolated from family and peers, and are less likely to participate in community activities.</p>
+
           </div>
         </div>
-
+      </div>
     </section>
 
     <section id="approach">
@@ -233,17 +232,17 @@ if (!empty($_POST['email'])) {
         <div class="row">
           <div class="large-fixed-8 columns medium-centered">
             <div class="row">
-              <div class="sm-med-10 columns medium-centered">
+              <div class="sm-med-12 columns medium-centered">
                 <h1>Our Team</h1>
               </div>
             </div>
 
             <div class="row">
-              <!-- <div class="sm-med-4 columns">
-                <img src="img/bio.jpg"/>
-              </div> -->
+              <div class="sm-med-4 columns">
+                <img src="img/stephen.jpg"/>
+              </div>
 
-              <div class="sm-med-10 columns medium-centered">
+              <div class="sm-med-8 columns">
                 <h2>Stephen Chinn  <span>MA, BCBA</span></h2>
                 
                 <h3>Director and Behaviour Consultant</h3>
