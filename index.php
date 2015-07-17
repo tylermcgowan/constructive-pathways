@@ -239,7 +239,7 @@ if (!empty($_POST['email'])) {
 
             <div class="row">
               <div class="sm-med-4 columns">
-                <img src="img/Stephen-Headshot-01.png"/>
+                <img src="img/Stephen-Headshot-02.png"/>
               </div>
 
               <div class="sm-med-8 columns">
